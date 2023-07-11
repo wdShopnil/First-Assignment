@@ -54,49 +54,50 @@ body {
 
 /* main section*/
 /* flower section*/
+.flower{
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
 .section-title {
     color: #272727;
-    text-align: center;
-    
+
     font-size: 40px;
-    
+
     font-weight: 800;
-   
+
 }
-.section-des{
+
+.section-des {
     margin-top: 5px;
     margin-bottom: 5px;
+
 }
 
 .flower-des {
-    
+    padding-bottom: 20px;
+    margin: 0px auto;
+    max-width: 560px;
     text-align: center;
-    
-   
+
+
+
 }
 
 
-.flower-container ul {
+.flower-container {
     display: flex;
     justify-content: center;
-
-}
-
-.flower-container ul li {
-
-    list-style: none;
     text-align: center;
     text-decoration-line: underline;
+
 }
-
-
-
 
 
 
 .flower1 {
     margin-right: 20px;
-    width: 314px;
+    width: 400px;
     height: 471px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -106,15 +107,129 @@ body {
 
 .flower2 {
     margin-right: 20px;
-    width: 314px;
+    width: 400px;
     height: 471px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 .flower3 {
-    width: 314px;
+    width: 400px;
     height: 471px;
     border-radius: 300px 300px 0px 0px;
     background: lightgray;
+}
+
+.pink {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.extra {
+    max-width: 1300px;
+
+    margin: 30px auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+
+}
+
+.extra-main {
+    padding: 80px;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.ex-div {
+    text-align: center;
+}
+
+.ex-des {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* deal section*/
+.deal-section {
+
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 50px 0px;
+
+
+}
+
+.deal-main {
+    padding: 80px 250px 80px 250px;
+    display: flex;
+    justify-content: space-around
+}
+
+.deal-head {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+
+.deal-des {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.deal-sub {
+    max-width: 634px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#off {
+    color: #E55473;
+}
+
+.insta {
+    width: 1920px;
+    height: 4867px;
+    align-items: center;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.insta-text {
+    text-align: center;
+}
+
+.insta-pic {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    ;
+}
+
+.insta-title {
+    color: #272727;
+
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.insta-des {
+   
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+    max-width:560px;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    
+    
 }
